@@ -1,3 +1,5 @@
+syntax on
+
 set autoindent
 set expandtab
 set incsearch
