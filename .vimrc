@@ -1,4 +1,5 @@
 syntax on
+colorscheme Tomorrow-Night-Bright
 
 set autoindent
 set expandtab
