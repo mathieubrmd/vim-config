@@ -1,5 +1,6 @@
 set autoindent
 set expandtab
+set incsearch
 set relativenumber
 set ruler
 set shiftwidth=4
