@@ -1,4 +1,5 @@
 syntax on
+filetype plugin on
 colorscheme Tomorrow-Night-Bright
 
 set autoindent
