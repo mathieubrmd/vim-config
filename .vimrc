@@ -12,3 +12,6 @@ set tabstop=4
 set wildmenu
 
 call pathogen#infect()
+
+highlight ExtraWhiteSpace ctermbg=red
+match ExtraWhiteSpace /\s\+$/
