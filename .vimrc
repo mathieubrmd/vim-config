@@ -1,5 +1,7 @@
 syntax on
 filetype plugin on
+au BufNewFile,BufRead *.twig set syntax=htmldjango
+
 colorscheme Tomorrow-Night-Bright
 
 set autoindent
