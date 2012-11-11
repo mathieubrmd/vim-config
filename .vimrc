@@ -1,3 +1,5 @@
+let mapleader=","
+
 syntax on
 filetype plugin on
 au BufNewFile,BufRead *.twig set syntax=htmldjango
@@ -16,6 +18,10 @@ set tabstop=4
 set wildmenu
 
 call pathogen#infect()
+
+nmap <Leader>n :NERDTreeToggle<CR>
+vmap <Leader>a= :Tabularize /=<CR>
+vmap <Leader>a> :Tabularize /=><CR>
 
 highlight ExtraWhiteSpace ctermbg=red
 match ExtraWhiteSpace /\s\+$/
