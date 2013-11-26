@@ -1,10 +1,13 @@
-let mapleader=","
+let mapleader = ","
 
 syntax on
 filetype plugin on
 au BufNewFile,BufRead *.twig set syntax=htmldjango
 
 colorscheme Tomorrow-Night-Bright
+
+inoremap jk <esc>
+inoremap <esc> <nop>
 
 set autoindent
 set cursorline
@@ -20,10 +23,10 @@ set wildmenu
 
 call pathogen#infect()
 
-nmap <Leader>n :NERDTreeToggle<CR>
-vmap <Leader>a= :Tabularize /=<CR>
-vmap <Leader>a> :Tabularize /=><CR>
-nmap <Leader>a\| :Tabularize /\|<CR>
+nnoremap <Leader>n :NERDTreeToggle<CR>
+vnoremap <Leader>a= :Tabularize /=<CR>
+vnoremap <Leader>a> :Tabularize /=><CR>
+nnoremap <Leader>a\| :Tabularize /\|<CR>
 
 highlight ExtraWhiteSpace ctermbg=red
 match ExtraWhiteSpace /\s\+$/
