@@ -13,6 +13,7 @@ set autoindent
 set cursorline
 set expandtab
 set incsearch
+set noswapfile
 set nowrap
 set relativenumber
 set ruler
