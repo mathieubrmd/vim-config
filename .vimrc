@@ -6,6 +6,8 @@ au BufNewFile,BufRead *.twig set syntax=htmldjango
 
 colorscheme Tomorrow-Night-Bright
 
+let NERDTreeIgnore = ['\.pyc$']
+
 inoremap jk <esc>
 inoremap <esc> <nop>
 
