@@ -4,8 +4,6 @@ syntax on
 filetype plugin on
 au BufNewFile,BufRead *.twig set syntax=htmldjango
 
-colorscheme Tomorrow-Night-Bright
-
 let NERDTreeIgnore = ['\.pyc$']
 
 inoremap jk <esc>
@@ -25,6 +23,9 @@ set tabstop=4
 set wildmenu
 
 call pathogen#infect()
+
+set background=dark
+colorscheme solarized
 
 nnoremap <Leader>n :NERDTreeToggle<CR>
 vnoremap <Leader>a= :Tabularize /=<CR>
