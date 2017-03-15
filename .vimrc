@@ -4,7 +4,7 @@ syntax on
 filetype plugin on
 au BufNewFile,BufRead *.twig set syntax=htmldjango
 
-let NERDTreeIgnore = ['\.pyc$']
+let NERDTreeIgnore = ['\.pyc$', '__pycache__']
 
 inoremap jk <esc>
 inoremap <esc> <nop>
